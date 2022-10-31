@@ -1,0 +1,29 @@
+{
+    "name": "authenticationapi",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "nodemon ./bin/www"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "cookie-parser": "~1.4.4",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "dotenv": "^16.0.3",
+        "express": "~4.16.1",
+        "hbs": "~4.0.4",
+        "http-errors": "~1.6.3",
+        "morgan": "~1.9.1",
+        "pg": "^8.8.0",
+        "pg-hstore": "^2.3.4",
+        "prettier": "^2.7.1",
+        "sequelize": "^6.25.3",
+        "sequelize-auto": "^0.8.8",
+        "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
